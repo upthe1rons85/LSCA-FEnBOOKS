@@ -1,0 +1,179 @@
+.headerCarousel {
+	height: 350px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	background:#224757;
+}
+
+.headerCarousel .bx_wrap {
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.headerCarousel .bx_nav {
+	margin: 0 auto;
+	position: relative;
+	width: 999px;
+	z-index: 10;
+}
+
+.headerCarousel .prev {
+	left: 0px;
+	position: absolute;
+	top: 296px;
+}
+
+.headerCarousel .next {
+	position: absolute;
+	right: 0px;
+	top: 296px;
+}
+
+.headerCarousel .bx_container {
+	margin: 0 auto;
+	/* position: absolute; */
+	z-index: 1;
+}
+
+.mainCarouselBlock {
+	position: relative;
+	clear: both;
+}
+
+.mainCarouselBlock .bx_wrap {
+	margin: 0 45px;
+}
+
+.mainCarouselBlock .prev {
+	left: -25px;
+	outline: 0;
+	position: absolute;
+	top: 45%;
+}
+
+.mainCarouselBlock .next {
+	outline: 0;
+	position: absolute;
+	right: -73px;
+	top: 45%;
+}
+
+.mainCarouselBlock .bx_container {
+	margin: 0 auto;
+	position: relative;
+}
+
+.relatedCarouselBlock {
+	clear: both;
+	position: relative;
+	padding: 0 0 25px 0;
+}
+
+.relatedCarouselBlock .bx_wrap {
+	border-top-style: solid;
+	border-bottom-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+	padding: 10px 0;
+}
+
+.relatedCarouselBlock .prev {
+	left: -5px;
+	outline: 0;
+	position: absolute;
+	top: 40px;
+}
+
+.relatedCarouselBlock .next {
+	outline: 0;
+	position: absolute;
+	right: -5px;
+	top: 40px;
+}
+
+.relatedCarouselBlock .bx_container {
+	margin: 0 auto;
+	position: relative;
+}
+
+.offersCarouselBlock{
+width: 100%;}
+
+.offersCarouselBlock, 
+.latestCarouselBlock, 
+.topRatedCarouselBlock, 
+.topSellersCarouselBlock {
+	clear: both;
+	position: relative;
+	
+}
+
+.offersCarouselBlock .bx_wrap, 
+.latestCarouselBlock .bx_wrap, 
+.topRatedCarouselBlock .bx_wrap, 
+.topSellersCarouselBlock .bx_wrap {
+	margin: 0 auto;
+	padding: 5px 0;
+	width: 879px;
+	-moz-box-shadow: inset -2px 0px 0px #888;
+        box-shadow: inset -2px 0px 0px #888;
+  -webkit-box-shadow: inset -2px 0px 0px 0px #888;
+  margin-left: 71px;
+}
+.offersCarouselBlock .prev{left: 9px;} 
+.latestCarouselBlock .prev{left: -62px;} 
+.topRatedCarouselBlock .prev{}
+
+.offersCarouselBlock .prev, 
+.latestCarouselBlock .prev, 
+.topRatedCarouselBlock .prev, 
+.topSellersCarouselBlock .prev {
+	
+	outline: 0;
+	position: absolute;
+	top: 50px;
+}
+
+.offersCarouselBlock .next{right: 16px;}
+.latestCarouselBlock .next{right: -56px;}
+.topRatedCarouselBlock .next{}
+
+.offersCarouselBlock .next, 
+.latestCarouselBlock .next, 
+.topRatedCarouselBlock .next, 
+.topSellersCarouselBlock .next {
+	outline: 0;
+	position: absolute;
+	top: 50px;
+}
+
+.offersCarouselBlock .bx_container, 
+.latestCarouselBlock .bx_container, 
+.topRatedCarouselBlock .bx_container, 
+.topSellersCarouselBlock .bx_container {
+	margin: 0 auto;
+	position: relative;
+}
+
+.bx_container ul {
+	margin: 0;
+	padding: 0;
+}
+#recomendaciones1 ul, #recomendaciones2 ul, #recomendaciones3 ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 50px;
+	padding: 0;
+}
+.bx_container ul li {
+	margin: 0;
+	padding: 0;
+}
+#vendidos .prev{z-index:1001;position:absolute;left:5px; }
+#vendidos .next{z-index:1000; position:absolute; left:973px;}
+
+#valorados .prev{z-index:1001;position:absolute;left:5px; }
+#valorados .next{z-index:1000; position:absolute; left:973px;}

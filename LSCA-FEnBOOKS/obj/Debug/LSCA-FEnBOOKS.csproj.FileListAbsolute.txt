@@ -1,0 +1,156 @@
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\LSCA-FEnBOOKS.dll.config
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\LSCA-FEnBOOKS.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\LSCA-FEnBOOKS.pdb
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Antlr3.Runtime.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.Core.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\EntityFramework.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\System.Web.Optimization.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\System.Web.Providers.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\WebGrease.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\EntityFramework.xml
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.Core.xml
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\es\EntityFramework.resources.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\es\System.Web.Providers.resources.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\obj\Debug\LSCA-FEnBOOKS.csprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\obj\Debug\LSCA-FEnBOOKS.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\LSCA-FEnBOOKS\obj\Debug\LSCA-FEnBOOKS.pdb
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\LSCA-FEnBOOKS.dll.config
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\LSCA-FEnBOOKS.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\LSCA-FEnBOOKS.pdb
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Antlr3.Runtime.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.Core.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\EntityFramework.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\System.Web.Optimization.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\System.Web.Providers.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\WebGrease.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\EntityFramework.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.Core.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\es\EntityFramework.resources.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\es\System.Web.Providers.resources.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\obj\Debug\LSCA-FEnBOOKS.csprojResolveAssemblyReference.cache
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\obj\Debug\LSCA-FEnBOOKS.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS\LSCA-FEnBOOKS\obj\Debug\LSCA-FEnBOOKS.pdb
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\LSCA-FEnBOOKS.dll.config
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\LSCA-FEnBOOKS.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\LSCA-FEnBOOKS.pdb
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Antlr3.Runtime.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.Core.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\EntityFramework.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\System.Web.Optimization.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\System.Web.Providers.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\WebGrease.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\EntityFramework.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.Core.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\es\EntityFramework.resources.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\es\System.Web.Providers.resources.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\obj\Debug\LSCA-FEnBOOKS.csprojResolveAssemblyReference.cache
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\obj\Debug\LSCA-FEnBOOKS.dll
+C:\Users\user\Dropbox\Equipo LSCA\LSCA 8 Proyecto Libreria Online\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\obj\Debug\LSCA-FEnBOOKS.pdb
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\LSCA-FEnBOOKS.dll.config
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\LSCA-FEnBOOKS.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\LSCA-FEnBOOKS.pdb
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Antlr3.Runtime.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.Core.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\EntityFramework.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\System.Web.Optimization.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\System.Web.Providers.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\WebGrease.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\EntityFramework.xml
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.Core.xml
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\es\EntityFramework.resources.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\es\System.Web.Providers.resources.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\obj\Debug\LSCA-FEnBOOKS.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\obj\Debug\LSCA-FEnBOOKS.dll
+C:\Users\user\Desktop\LSCA-FEnBOOKS ASP\LSCA-FEnBOOKS\obj\Debug\LSCA-FEnBOOKS.pdb

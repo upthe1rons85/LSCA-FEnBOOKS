@@ -1,0 +1,6 @@
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\WS_LSCAFEnBOOKS\bin\WS_LSCAFEnBOOKS.dll.config
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\WS_LSCAFEnBOOKS\bin\WS_LSCAFEnBOOKS.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\WS_LSCAFEnBOOKS\bin\WS_LSCAFEnBOOKS.pdb
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\WS_LSCAFEnBOOKS\obj\Debug\WS_LSCAFEnBOOKS.csprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\WS_LSCAFEnBOOKS\obj\Debug\WS_LSCAFEnBOOKS.dll
+C:\Users\user\Downloads\Proyectos Web\Proyecto LSCA\LSCA-FEnBOOKS\WS_LSCAFEnBOOKS\obj\Debug\WS_LSCAFEnBOOKS.pdb

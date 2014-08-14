@@ -1,0 +1,1196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{05566738-C234-4D98-977D-607303511BC8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LSCA_FEnBOOKS</RootNamespace>
+    <AssemblyName>LSCA-FEnBOOKS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DeployEncryptKey>La contraseña de cifrado se usa solamente si alguno de los valores de implementación está marcado como seguro</DeployEncryptKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.1.8.2\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery.UI.Combined">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.UI.Combined.1.8.24\lib\net45\AspNet.ScriptManager.jQuery.UI.Combined.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax, Version=4.5.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.4.5.6\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms, Version=4.5.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.4.5.6\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net40-full\DotNetOpenAuth.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.1.4.12333\lib\net40-full\DotNetOpenAuth.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.1.4.12333\lib\net40-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.1.4.12333\lib\net40-full\DotNetOpenAuth.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.1.4.12333\lib\net40-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.1.4.12333\lib\net40-full\DotNetOpenAuth.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Membership.OpenAuth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Membership.OpenAuth.1.0.1\lib\net45\Microsoft.AspNet.Membership.OpenAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.0.0\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.0\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Manage.aspx" />
+    <Content Include="Account\OpenAuthProviders.ascx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="Carrito.aspx" />
+    <Content Include="Configuracion.aspx" />
+    <Content Include="Contacto.aspx" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Didacticos.aspx" />
+    <Content Include="faviconlsca.ico" />
+    <Content Include="Images\accent.png" />
+    <Content Include="Images\bullet.png" />
+    <Content Include="Images\heroAccent.png" />
+    <Content Include="Images\orderedList0.png" />
+    <Content Include="Images\orderedList1.png" />
+    <Content Include="Images\orderedList2.png" />
+    <Content Include="Images\orderedList3.png" />
+    <Content Include="Images\orderedList4.png" />
+    <Content Include="Images\orderedList5.png" />
+    <Content Include="Images\orderedList6.png" />
+    <Content Include="Images\orderedList7.png" />
+    <Content Include="Images\orderedList8.png" />
+    <Content Include="Images\orderedList9.png" />
+    <Content Include="Global.asax" />
+    <Content Include="index.aspx" />
+    <Content Include="libLOTR.aspx" />
+    <Content Include="Libro01.aspx" />
+    <Content Include="Libro03.aspx" />
+    <Content Include="Libro04.aspx" />
+    <Content Include="Libro05.aspx" />
+    <Content Include="Libro06.aspx" />
+    <Content Include="Libro07.aspx" />
+    <Content Include="Libro08.aspx" />
+    <Content Include="Libro09.aspx" />
+    <Content Include="Libro10.aspx" />
+    <Content Include="Libro11.aspx" />
+    <Content Include="Libro12.aspx" />
+    <Content Include="Libro13.aspx" />
+    <Content Include="Libro14.aspx" />
+    <Content Include="Libro15.aspx" />
+    <Content Include="Libro16.aspx" />
+    <Content Include="Libro17.aspx" />
+    <Content Include="Libro18.aspx" />
+    <Content Include="Libro19.aspx" />
+    <Content Include="Libro20.aspx" />
+    <Content Include="Libro21.aspx" />
+    <Content Include="Libro22.aspx" />
+    <Content Include="Libro23.aspx" />
+    <Content Include="Libro24.aspx" />
+    <Content Include="Libro25.aspx" />
+    <Content Include="Libro26.aspx" />
+    <Content Include="Libro27.aspx" />
+    <Content Include="Libro28.aspx" />
+    <Content Include="Libro29.aspx" />
+    <Content Include="Libro30.aspx" />
+    <Content Include="Libro31.aspx" />
+    <Content Include="Libro32.aspx" />
+    <Content Include="Libro33.aspx" />
+    <Content Include="Libro34.aspx" />
+    <Content Include="Libro35.aspx" />
+    <Content Include="Libro36.aspx" />
+    <Content Include="Libro37.aspx" />
+    <Content Include="Libro38.aspx" />
+    <Content Include="Libro39.aspx" />
+    <Content Include="Libro40.aspx" />
+    <Content Include="Libro41.aspx" />
+    <Content Include="Libro42.aspx" />
+    <Content Include="Libro43.aspx" />
+    <Content Include="Libro45.aspx" />
+    <Content Include="Libro46.aspx" />
+    <Content Include="Libro47.aspx" />
+    <Content Include="Libro48.aspx" />
+    <Content Include="Libro49.aspx" />
+    <Content Include="Libro50.aspx" />
+    <Content Include="Libro51.aspx" />
+    <Content Include="Libro52.aspx" />
+    <Content Include="Libro53.aspx" />
+    <Content Include="Libro54.aspx" />
+    <Content Include="Libro55.aspx" />
+    <Content Include="Libro56.aspx" />
+    <Content Include="Libro57.aspx" />
+    <Content Include="Libro58.aspx" />
+    <Content Include="Libro59.aspx" />
+    <Content Include="Libro60.aspx" />
+    <Content Include="Libro61.aspx" />
+    <Content Include="Libro62.aspx" />
+    <Content Include="Libro63.aspx" />
+    <Content Include="Libros.aspx" />
+    <Content Include="Liricos.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Login\login.html" />
+    <Content Include="Login\style.css" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\000.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\10m.GIF" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\1984.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\451.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\alg.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\ali.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\ant.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\antp.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\asp.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\aubry.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\bad.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\bajo.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\bak.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\baku.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\bg-a.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\bgb.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\book.gif" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\brms.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\bs.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\can.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\cap.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\cas.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\cc.png" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\cent.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\cerv.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\CHF1.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\CHF2.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\CHF3.2.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\CHF3.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\CHF4.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\CHF5.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\cort.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\crep.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\crim.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\crit.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\CS1.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\cslew.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\cthulhu.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\dante.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\dashner.png" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\des.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\desca.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\dick.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\dino.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\dios.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\dis.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\div.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\dosto.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\drac.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\eal.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\eb.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\emers.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\emerson.jpeg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\en.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\engels.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\eo.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\ep.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\epj.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\etica.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\exo.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fa.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fae.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fase.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\faviconlsca.ico" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fbg.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fc.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fcg.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fcon.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fda.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fez.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Ffe.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fin.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fjc.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fjjr.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fjwg.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fkm.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fl.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fldv.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\flechaprev.png" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\flechasigu.png" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\flores.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fmb.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fmg.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fmlk.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fn.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\fnd.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\fnda.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\fndb.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fnm.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fpn.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Frwe.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fs.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fsf.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fsh.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fsj.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fsoc.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Ft.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\Fwc.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\gaya.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\geo.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\gesto.gif" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\green.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\grrm.JPG" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\gul.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\haru.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\hesse.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\HG1.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\hist.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\hitler.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\hojas.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\HP1.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\hpl.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\html.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\hux.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\jr.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\jrrt.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\juv.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\kan.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\kant.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\kierk.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\lad.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\leal.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\lec.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\leni.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\lenin.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\leo.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\leye.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\lib.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\lib1.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\linux.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\lobo.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\logo.gif" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\logo.png" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\LogoL.png" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\lorca.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\LOTR1.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\LOTR2.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\LOTR3.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\lucha.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\man.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\marx.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\maze.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\mb.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\memorial.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\memorias.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\mie.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\mis.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\mun.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\mundo.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\N1.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\nat.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\niet.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\nietz.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\oli.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\paseos.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\paypal.gif" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\paz.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\pne.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\pny.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\poe.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\poo.gif" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\pto.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\qslogo.png" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\qui.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\raven.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\rayb.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\rebel.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\rm.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\roth.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\sav.JPG" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\sch.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\schop.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\sha.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\shine.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\sk.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\so.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\son.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\sonetos.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\soren.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\spin.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\stan.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\suz.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\swi.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\tanen.JPG" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\tokio.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\turn.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\twain.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\umm.png" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\valle.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\veinte.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\vich.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\vma.png" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\volt.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\wb.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\wit.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\zizek.jpg" />
+    <Content Include="LSCA-FEnBOOKS\imagenes\zuzak.jpg" />
+    <Content Include="LSCA-FEnBOOKS\js\dc.js" />
+    <Content Include="LSCA-FEnBOOKS\js\fun.js" />
+    <Content Include="LSCA-FEnBOOKS\js\funciones.js" />
+    <Content Include="LSCA-FEnBOOKS\js\jquery-v142.js" />
+    <Content Include="LSCA-FEnBOOKS\js\JQuery.js" />
+    <Content Include="LSCA-FEnBOOKS\js\menu.js" />
+    <Content Include="LSCA-FEnBOOKS\js\plusone.js" />
+    <Content Include="LSCA-FEnBOOKS\js\Turn.js" />
+    <Content Include="LSCA-FEnBOOKS\js\turn.min.js" />
+    <Content Include="LSCA-FEnBOOKS\styles\carousel.css" />
+    <Content Include="LSCA-FEnBOOKS\styles\libreria.css" />
+    <Content Include="Narrativos.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="QuienesSomos.aspx" />
+    <Content Include="Service1.htm" />
+    <Content Include="VerCarrito.aspx" />
+    <Content Include="Web References\localhost\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <Content Include="index.Master" />
+    <None Include="Properties\PublishProfiles\upthe1rons85.pubxml" />
+    <None Include="Web References\localhost\Service1.disco" />
+    <Content Include="WS_LSCAFEnBOOKS.aspx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Bundle.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\_references.js" />
+    <None Include="Web References\localhost\Service1.wsdl" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\AuthConfig.cs" />
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.designer.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.cs">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.designer.cs">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.cs">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.designer.cs">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Autenticar.cs" />
+    <Compile Include="Carrito.aspx.cs">
+      <DependentUpon>Carrito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Carrito.aspx.designer.cs">
+      <DependentUpon>Carrito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CarroDeCompras.cs" />
+    <Compile Include="Configuracion.aspx.cs">
+      <DependentUpon>Configuracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Configuracion.aspx.designer.cs">
+      <DependentUpon>Configuracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contacto.aspx.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contacto.aspx.designer.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Didacticos.aspx.cs">
+      <DependentUpon>Didacticos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Didacticos.aspx.designer.cs">
+      <DependentUpon>Didacticos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Help.cs" />
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.Master.cs">
+      <DependentUpon>index.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.Master.designer.cs">
+      <DependentUpon>index.Master</DependentUpon>
+    </Compile>
+    <Compile Include="libLOTR.aspx.cs">
+      <DependentUpon>libLOTR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="libLOTR.aspx.designer.cs">
+      <DependentUpon>libLOTR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro01.aspx.cs">
+      <DependentUpon>Libro01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro01.aspx.designer.cs">
+      <DependentUpon>Libro01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro03.aspx.cs">
+      <DependentUpon>Libro03.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro03.aspx.designer.cs">
+      <DependentUpon>Libro03.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro04.aspx.cs">
+      <DependentUpon>Libro04.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro04.aspx.designer.cs">
+      <DependentUpon>Libro04.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro05.aspx.cs">
+      <DependentUpon>Libro05.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro05.aspx.designer.cs">
+      <DependentUpon>Libro05.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro06.aspx.cs">
+      <DependentUpon>Libro06.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro06.aspx.designer.cs">
+      <DependentUpon>Libro06.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro07.aspx.cs">
+      <DependentUpon>Libro07.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro07.aspx.designer.cs">
+      <DependentUpon>Libro07.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro08.aspx.cs">
+      <DependentUpon>Libro08.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro08.aspx.designer.cs">
+      <DependentUpon>Libro08.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro09.aspx.cs">
+      <DependentUpon>Libro09.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro09.aspx.designer.cs">
+      <DependentUpon>Libro09.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro10.aspx.cs">
+      <DependentUpon>Libro10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro10.aspx.designer.cs">
+      <DependentUpon>Libro10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro11.aspx.cs">
+      <DependentUpon>Libro11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro11.aspx.designer.cs">
+      <DependentUpon>Libro11.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro12.aspx.cs">
+      <DependentUpon>Libro12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro12.aspx.designer.cs">
+      <DependentUpon>Libro12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro13.aspx.cs">
+      <DependentUpon>Libro13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro13.aspx.designer.cs">
+      <DependentUpon>Libro13.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro14.aspx.cs">
+      <DependentUpon>Libro14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro14.aspx.designer.cs">
+      <DependentUpon>Libro14.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro15.aspx.cs">
+      <DependentUpon>Libro15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro15.aspx.designer.cs">
+      <DependentUpon>Libro15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro16.aspx.cs">
+      <DependentUpon>Libro16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro16.aspx.designer.cs">
+      <DependentUpon>Libro16.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro17.aspx.cs">
+      <DependentUpon>Libro17.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro17.aspx.designer.cs">
+      <DependentUpon>Libro17.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro18.aspx.cs">
+      <DependentUpon>Libro18.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro18.aspx.designer.cs">
+      <DependentUpon>Libro18.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro19.aspx.cs">
+      <DependentUpon>Libro19.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro19.aspx.designer.cs">
+      <DependentUpon>Libro19.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro20.aspx.cs">
+      <DependentUpon>Libro20.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro20.aspx.designer.cs">
+      <DependentUpon>Libro20.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro21.aspx.cs">
+      <DependentUpon>Libro21.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro21.aspx.designer.cs">
+      <DependentUpon>Libro21.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro22.aspx.cs">
+      <DependentUpon>Libro22.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro22.aspx.designer.cs">
+      <DependentUpon>Libro22.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro23.aspx.cs">
+      <DependentUpon>Libro23.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro23.aspx.designer.cs">
+      <DependentUpon>Libro23.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro24.aspx.cs">
+      <DependentUpon>Libro24.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro24.aspx.designer.cs">
+      <DependentUpon>Libro24.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro25.aspx.cs">
+      <DependentUpon>Libro25.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro25.aspx.designer.cs">
+      <DependentUpon>Libro25.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro26.aspx.cs">
+      <DependentUpon>Libro26.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro26.aspx.designer.cs">
+      <DependentUpon>Libro26.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro27.aspx.cs">
+      <DependentUpon>Libro27.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro27.aspx.designer.cs">
+      <DependentUpon>Libro27.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro28.aspx.cs">
+      <DependentUpon>Libro28.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro28.aspx.designer.cs">
+      <DependentUpon>Libro28.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro29.aspx.cs">
+      <DependentUpon>Libro29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro29.aspx.designer.cs">
+      <DependentUpon>Libro29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro30.aspx.cs">
+      <DependentUpon>Libro30.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro30.aspx.designer.cs">
+      <DependentUpon>Libro30.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro31.aspx.cs">
+      <DependentUpon>Libro31.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro31.aspx.designer.cs">
+      <DependentUpon>Libro31.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro32.aspx.cs">
+      <DependentUpon>Libro32.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro32.aspx.designer.cs">
+      <DependentUpon>Libro32.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro33.aspx.cs">
+      <DependentUpon>Libro33.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro33.aspx.designer.cs">
+      <DependentUpon>Libro33.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro34.aspx.cs">
+      <DependentUpon>Libro34.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro34.aspx.designer.cs">
+      <DependentUpon>Libro34.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro35.aspx.cs">
+      <DependentUpon>Libro35.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro35.aspx.designer.cs">
+      <DependentUpon>Libro35.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro36.aspx.cs">
+      <DependentUpon>Libro36.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro36.aspx.designer.cs">
+      <DependentUpon>Libro36.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro37.aspx.cs">
+      <DependentUpon>Libro37.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro37.aspx.designer.cs">
+      <DependentUpon>Libro37.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro38.aspx.cs">
+      <DependentUpon>Libro38.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro38.aspx.designer.cs">
+      <DependentUpon>Libro38.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro39.aspx.cs">
+      <DependentUpon>Libro39.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro39.aspx.designer.cs">
+      <DependentUpon>Libro39.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro40.aspx.cs">
+      <DependentUpon>Libro40.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro40.aspx.designer.cs">
+      <DependentUpon>Libro40.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro41.aspx.cs">
+      <DependentUpon>Libro41.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro41.aspx.designer.cs">
+      <DependentUpon>Libro41.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro42.aspx.cs">
+      <DependentUpon>Libro42.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro42.aspx.designer.cs">
+      <DependentUpon>Libro42.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro43.aspx.cs">
+      <DependentUpon>Libro43.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro43.aspx.designer.cs">
+      <DependentUpon>Libro43.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro45.aspx.cs">
+      <DependentUpon>Libro45.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro45.aspx.designer.cs">
+      <DependentUpon>Libro45.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro46.aspx.cs">
+      <DependentUpon>Libro46.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro46.aspx.designer.cs">
+      <DependentUpon>Libro46.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro47.aspx.cs">
+      <DependentUpon>Libro47.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro47.aspx.designer.cs">
+      <DependentUpon>Libro47.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro48.aspx.cs">
+      <DependentUpon>Libro48.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro48.aspx.designer.cs">
+      <DependentUpon>Libro48.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro49.aspx.cs">
+      <DependentUpon>Libro49.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro49.aspx.designer.cs">
+      <DependentUpon>Libro49.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro50.aspx.cs">
+      <DependentUpon>Libro50.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro50.aspx.designer.cs">
+      <DependentUpon>Libro50.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro51.aspx.cs">
+      <DependentUpon>Libro51.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro51.aspx.designer.cs">
+      <DependentUpon>Libro51.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro52.aspx.cs">
+      <DependentUpon>Libro52.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro52.aspx.designer.cs">
+      <DependentUpon>Libro52.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro53.aspx.cs">
+      <DependentUpon>Libro53.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro53.aspx.designer.cs">
+      <DependentUpon>Libro53.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro54.aspx.cs">
+      <DependentUpon>Libro54.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro54.aspx.designer.cs">
+      <DependentUpon>Libro54.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro55.aspx.cs">
+      <DependentUpon>Libro55.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro55.aspx.designer.cs">
+      <DependentUpon>Libro55.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro56.aspx.cs">
+      <DependentUpon>Libro56.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro56.aspx.designer.cs">
+      <DependentUpon>Libro56.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro57.aspx.cs">
+      <DependentUpon>Libro57.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro57.aspx.designer.cs">
+      <DependentUpon>Libro57.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro58.aspx.cs">
+      <DependentUpon>Libro58.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro58.aspx.designer.cs">
+      <DependentUpon>Libro58.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro59.aspx.cs">
+      <DependentUpon>Libro59.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro59.aspx.designer.cs">
+      <DependentUpon>Libro59.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro60.aspx.cs">
+      <DependentUpon>Libro60.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro60.aspx.designer.cs">
+      <DependentUpon>Libro60.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro61.aspx.cs">
+      <DependentUpon>Libro61.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro61.aspx.designer.cs">
+      <DependentUpon>Libro61.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro62.aspx.cs">
+      <DependentUpon>Libro62.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro62.aspx.designer.cs">
+      <DependentUpon>Libro62.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libro63.aspx.cs">
+      <DependentUpon>Libro63.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libro63.aspx.designer.cs">
+      <DependentUpon>Libro63.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libros.aspx.cs">
+      <DependentUpon>Libros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libros.aspx.designer.cs">
+      <DependentUpon>Libros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Liricos.aspx.cs">
+      <DependentUpon>Liricos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Liricos.aspx.designer.cs">
+      <DependentUpon>Liricos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Narrativos.aspx.cs">
+      <DependentUpon>Narrativos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Narrativos.aspx.designer.cs">
+      <DependentUpon>Narrativos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Producto.cs" />
+    <Compile Include="ProductoAlCarro.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="QuienesSomos.aspx.cs">
+      <DependentUpon>QuienesSomos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuienesSomos.aspx.designer.cs">
+      <DependentUpon>QuienesSomos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerCarrito.aspx.cs">
+      <DependentUpon>VerCarrito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerCarrito.aspx.designer.cs">
+      <DependentUpon>VerCarrito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\localhost\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WS_LSCAFEnBOOKS.aspx.cs">
+      <DependentUpon>WS_LSCAFEnBOOKS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WS_LSCAFEnBOOKS.aspx.designer.cs">
+      <DependentUpon>WS_LSCAFEnBOOKS.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:2152/Service1.asmx%3fop=verLibros">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\localhost\</RelPath>
+      <UpdateFromURL>http://localhost:2152/Service1.asmx%3fop=verLibros</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>LSCA_FEnBOOKS_localhost_Service1</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>faviconlsca.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1962</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1962/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
